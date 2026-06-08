@@ -1,0 +1,17 @@
+export const STORY_PATHS = {
+  raghda: '/stories/raghda',
+  abdirahmanNourYoussef: '/stories/abdirahman-nour-youssef',
+  aliBendahbia: '/stories/ali-bendahbia',
+  olaAlaghbaary: '/stories/ola-alaghbaary',
+  sadaaHassanAqar: '/stories/sadaa-hassan-aqar',
+  gabbyFraidy: '/stories/gabby-fraidy',
+  moukhtarItani: '/stories/moukhtar-itani',
+  zahiaTahirSagr: '/stories/zahia-tahir-sagr',
+  abdallaBabiker: '/stories/abdalla-babiker',
+  raghdaBreika: '/stories/raghda-breika',
+  ahmadAssaf: '/stories/ahmad-assaf',
+  nourshan: '/stories/nourshan',
+  muadAlGhandouri: '/stories/muad-al-ghandouri',
+  khairyyehBobaky: '/stories/khairyyeh-bobaky',
+  omarBozou: '/stories/omar-bozou',
+}
