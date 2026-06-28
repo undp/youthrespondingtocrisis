@@ -36,7 +36,7 @@ export const storyAssetManifest = {
     "portraitImage": "WhatsApp-Image-2025-10-25-at-4.53.21-PM.jpeg",
     "groupImage": "WhatsApp-Image-2025-10-25-at-5.00.47-PM.jpeg",
   },
-  "sadaa-hassan-aqar": {
+  "seada-hassan-aqar": {
     "heroDesktop": "WhatsApp-Image-2025-12-03-at-15.40.18-1.jpeg",
     "heroMobile": "WhatsApp-Image-2025-12-03-at-15.40.18-1.jpeg",
     "statsImage": "WhatsApp-Image-2025-12-03-at-15.37.40-1.jpeg",

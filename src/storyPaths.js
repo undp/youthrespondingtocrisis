@@ -3,7 +3,7 @@ export const STORY_PATHS = {
   abdirahmanNourYoussef: '/stories/abdirahman-nour-youssef',
   aliBendahbia: '/stories/ali-bendahbia',
   olaAlaghbaary: '/stories/ola-alaghbaary',
-  sadaaHassanAqar: '/stories/sadaa-hassan-aqar',
+  seadaHassanAqar: '/stories/seada-hassan-aqar',
   gabbyFraidy: '/stories/gabby-fraidy',
   moukhtarItani: '/stories/moukhtar-itani',
   zahiaTahirSagr: '/stories/zahia-tahir-sagr',

@@ -35,10 +35,10 @@ const profileMeta = {
     ariaLabel: `Open Ola Alaghbaary's story`,
     storyPath: STORY_PATHS.olaAlaghbaary,
   },
-  sadaaHassanAqar: {
-    alt: `Sada’a Hassan Aqar profile card`,
-    ariaLabel: `Open Sada’a Hassan Aqar's story`,
-    storyPath: STORY_PATHS.sadaaHassanAqar,
+  seadaHassanAqar: {
+    alt: `Seada Hassan Aqar profile card`,
+    ariaLabel: `Open Seada Hassan Aqar's story`,
+    storyPath: STORY_PATHS.seadaHassanAqar,
   },
   gabbyFraidy: {
     alt: `Gabby Fraidy profile card`,
@@ -115,7 +115,7 @@ export const leaderProfiles = [
   createProfile(leaderImg11, 10, profileMeta.zahiaTahirSagr),
   createProfile(leaderImg12, 11, profileMeta.omarBozou),
   createProfile(leaderImg13, 12, profileMeta.olaAlaghbaary),
-  createProfile(leaderImg14, 13, profileMeta.sadaaHassanAqar),
+  createProfile(leaderImg14, 13, profileMeta.seadaHassanAqar),
 ]
 
 export const storyLeaderProfiles = [

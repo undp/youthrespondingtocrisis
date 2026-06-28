@@ -21,8 +21,10 @@ import storySectionThreeDetailsBackImg from "./assets/Story-imgs/section3/back-i
 import storySectionThreeDetailsMobileBackImg from "./assets/Story-imgs/section3/mobile-back-img2.png";
 import storyLeadersBackImg from "./assets/Landing-imgs/section6/back-img-story.jpg";
 import storyLeadersMobileBackImg from "./assets/Landing-imgs/section6/mobile-back-img.png";
+import backButtonIcon from "./assets/Story-imgs/backward.png";
 import { leaderProfileImages, storyLeaderProfiles } from "./leaderProfiles.js";
 import { getStoryAssets } from "./storyAssets.js";
+import { BASE_PATH } from "./config.js";
 import "./StoryPage.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -31,7 +33,7 @@ ScrollTrigger.config({ ignoreMobileResize: true });
 const MICROSITE_HOME_PATH = "/";
 const ARAB_STATES_SITE_URL = "https://www.undp.org/arab-states";
 
-const storyVideoSrc = "/videos/regional-stability.mp4";
+const storyVideoSrc = `${BASE_PATH}videos/regional-stability.mp4`;
 
 const defaultStoryMedia = {
   heroDesktop: storyHeroBackImg,
@@ -220,6 +222,30 @@ function StoryPageTemplate({ story }) {
   const media = useMemo(() => {
     const a = getStoryAssets(story.slug);
     const pick = (key, fallbackKey) => a[key] ?? defaultStoryMedia[fallbackKey];
+    console.log({
+      heroDesktop: pick("heroDesktop", "heroDesktop"),
+      heroMobile: pick("heroMobile", "heroMobile"),
+      narrativeDesktop: pick("introDesktop", "narrativeDesktop"),
+      narrativeMobile: pick("introMobile", "narrativeMobile"),
+      // impactCircle: pick('statsImage', 'impactCircle'),
+      impactCircle: pick("statsImage", null),
+      sectionTwoBack: pick("darkBackground", "sectionTwoBack"),
+      // sectionTwoPortrait: pick("portraitImage", "sectionTwoPortrait"),
+      sectionTwoPortrait: pick("portraitImage", null),
+      // sectionTwoGroup: pick("groupImage", "sectionTwoGroup"),
+      sectionTwoGroup: pick("groupImage", null),
+      sectionThreeDesktop: pick("quoteDesktop", "sectionThreeDesktop"),
+      sectionThreeMobile: pick("quoteMobile", "sectionThreeMobile"),
+      sectionThreeDetailsDesktop: pick(
+        "continuationDesktop",
+        "sectionThreeDetailsDesktop",
+      ),
+      sectionThreeDetailsMobile: pick(
+        "continuationMobile",
+        "sectionThreeDetailsMobile",
+      ),
+      video: pick("video", "video"),
+    });
     return {
       heroDesktop: pick("heroDesktop", "heroDesktop"),
       heroMobile: pick("heroMobile", "heroMobile"),
@@ -244,6 +270,7 @@ function StoryPageTemplate({ story }) {
       ),
       video: pick("video", "video"),
     };
+
   }, [story.slug]);
 
   const openingLines = useMemo(
@@ -277,7 +304,7 @@ function StoryPageTemplate({ story }) {
   // be short enough to fit the viewport. The reference page (Raghda
   // Each vision line uses `white-space: nowrap` with a gold background, so
   // every line must fit the viewport width. ~9 words per desktop line and
-  // ~6 per mobile line keeps long visions (Gabby, Ahmad, Sada'a) from
+  // ~6 per mobile line keeps long visions (Gabby, Ahmad, Seada) from
   // spilling off-screen.
   const visionDesktopLineCount = useMemo(() => {
     const words = (story.vision?.text || "")
@@ -731,7 +758,7 @@ function StoryPageTemplate({ story }) {
         };
 
         // Scale the pinned scroll distance with the vision's word count so
-        // long visions (e.g. Ahmad Assaf's 62 words, Sada'a's 67) still have
+        // long visions (e.g. Ahmad Assaf's 62 words, Seada's 67) still have
         // enough scroll runway for every word to reveal before the section
         // unpins. Shorter visions keep the original `3200/2400` minimum.
         //
@@ -928,6 +955,10 @@ function StoryPageTemplate({ story }) {
     navigate(storyPath);
   };
 
+  const handleBackButtonClick = () => {
+    navigate("/");
+  };
+
   return (
     <main className="story-detail-page" data-story-slug={story.slug}>
       <section
@@ -966,30 +997,37 @@ function StoryPageTemplate({ story }) {
           </div>
         </header>
 
-        <h1 id="story-detail-title" className="story-detail-title">
-          <span className="story-detail-title-desktop">{story.title}</span>
-          <span className="story-detail-title-mobile">{story.title}</span>
-        </h1>
+        <div className="story-detail-hero-content">
 
-        <span className="story-detail-divider" aria-hidden="true" />
+          <div className="back-button" onClick={handleBackButtonClick}>
+            <button type="button" className="back-button-link">
+              <img src={backButtonIcon} alt="Back to stories" />
+            </button>
+          </div>
+          <h1 id="story-detail-title" className="story-detail-title">
+            <span className="story-detail-title-desktop">{story.title}</span>
+            <span className="story-detail-title-mobile">{story.title}</span>
+            <span className="story-detail-divider" aria-hidden="true" />
+          </h1>
 
-        <div className="story-detail-byline">
-          <p className="story-detail-author">{story.subjectName}</p>
-          <p className="story-detail-meta">
-            <span>{story.country}</span>
-            <span>{story.topic}</span>
-          </p>
+          <div className="story-detail-byline">
+            <p className="story-detail-author">{story.subjectName}</p>
+            <p className="story-detail-meta">
+              <span>{story.country}</span>
+              <span>{story.topic}</span>
+            </p>
+          </div>
+
+          <button
+            className="story-detail-button"
+            type="button"
+            aria-controls="story-impact"
+            onClick={handleReadFullStoryClick}
+          >
+            <span>Read Full Story</span>
+            <span className="story-detail-button-icon" aria-hidden="true" />
+          </button>
         </div>
-
-        <button
-          className="story-detail-button"
-          type="button"
-          aria-controls="story-impact"
-          onClick={handleReadFullStoryClick}
-        >
-          <span>Read Full Story</span>
-          <span className="story-detail-button-icon" aria-hidden="true" />
-        </button>
       </section>
 
       <section

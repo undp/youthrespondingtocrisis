@@ -19,7 +19,7 @@ const SLUG_BY_NUM = {
   1: 'abdirahman-nour-youssef',
   2: 'ali-bendahbia',
   3: 'ola-alaghbaary',
-  4: 'sadaa-hassan-aqar',
+  4: 'seada-hassan-aqar',
   5: 'gabby-fraidy',
   6: 'moukhtar-itani',
   7: 'zahia-tahir-sagr',

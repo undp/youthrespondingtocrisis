@@ -48,7 +48,7 @@ import RaghdaStoryPage from './RaghdaStoryPage.jsx'
 import AbdirahmanNourYoussefStoryPage from './AbdirahmanNourYoussefStoryPage.jsx'
 import AliBendahbiaStoryPage from './AliBendahbiaStoryPage.jsx'
 import OlaAlaghbaaryStoryPage from './OlaAlaghbaaryStoryPage.jsx'
-import SadaaHassanAqarStoryPage from './SadaaHassanAqarStoryPage.jsx'
+import SeadaHassanAqarStoryPage from './SeadaHassanAqarStoryPage.jsx'
 import GabbyFraidyStoryPage from './GabbyFraidyStoryPage.jsx'
 import MoukhtarItaniStoryPage from './MoukhtarItaniStoryPage.jsx'
 import ZahiaTahirSagrStoryPage from './ZahiaTahirSagrStoryPage.jsx'
@@ -62,6 +62,7 @@ import OmarBozouStoryPage from './OmarBozouStoryPage.jsx'
 import Footer from './Footer.jsx'
 import { leaderProfiles } from './leaderProfiles.js'
 import { STORY_PATHS } from './storyPaths.js'
+import { BASE_PATH } from './config.js'
 import './App.css'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -189,8 +190,8 @@ const missionImages = [
   },
 ]
 
-const crisisVideoSrc = '/videos/crisis-response.mp4'
-const stabilityVideoSrc = '/videos/regional-stability.mp4'
+const crisisVideoSrc = `${BASE_PATH}videos/crisis-response.mp4`
+const stabilityVideoSrc = `${BASE_PATH}videos/regional-stability.mp4`
 
 const leaderImages = leaderProfiles
 
@@ -199,7 +200,7 @@ const storyRoutes = {
   [STORY_PATHS.abdirahmanNourYoussef]: AbdirahmanNourYoussefStoryPage,
   [STORY_PATHS.aliBendahbia]: AliBendahbiaStoryPage,
   [STORY_PATHS.olaAlaghbaary]: OlaAlaghbaaryStoryPage,
-  [STORY_PATHS.sadaaHassanAqar]: SadaaHassanAqarStoryPage,
+  [STORY_PATHS.seadaHassanAqar]: SeadaHassanAqarStoryPage,
   [STORY_PATHS.gabbyFraidy]: GabbyFraidyStoryPage,
   [STORY_PATHS.moukhtarItani]: MoukhtarItaniStoryPage,
   [STORY_PATHS.zahiaTahirSagr]: ZahiaTahirSagrStoryPage,
