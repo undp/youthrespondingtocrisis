@@ -1,4 +1,4 @@
-// Deployment base path — must match the GitHub repository name.
-// Update this value if the repo is renamed, then rebuild and redeploy.
+// Deployment base path — use '/' when the site is served at the domain root
+// (e.g. https://youthrespondingtocrisis.arabstates.undp.org/).
 // Also update segmentCount in public/404.html to match the number of path segments here.
-export const BASE_PATH = '/youthrespondingtocrisis/'
+export const BASE_PATH = '/'
