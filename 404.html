@@ -6,9 +6,9 @@
       // GitHub Pages SPA redirect trick.
       // Encodes the full URL as a query string so index.html can restore it.
       //
-      // segmentCount = number of path segments in the `base` value in vite.config.js.
-      // e.g. base '/youthrespondingtocrisis/' → 1 segment. Update both together if the repo is renamed.
-      var segmentCount = 1;
+      // segmentCount = number of path segments in BASE_PATH (src/config.js).
+      // e.g. base '/' → 0 segments. Update both together if the base path changes.
+      var segmentCount = 0;
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
