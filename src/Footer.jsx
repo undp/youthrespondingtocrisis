@@ -5,23 +5,23 @@ const socialLinks = [
     className: 'twitter-x',
     label: 'X (formerly Twitter)',
     icon: 'x',
-    href: 'https://x.com/undp/',
+    href: 'https://x.com/UNDPArabStates?lang=en',
   },
   { className: 'linkedin', label: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/company/undp/' },
   {
     className: 'facebook',
     label: 'Facebook',
     icon: 'facebook',
-    href: 'https://web.facebook.com/UNDPShababeek/?_rdc=1&_rdr#',
+    href: 'https://www.facebook.com/UNDPar/?_rdc=2&_rdr#',
   },
   { className: 'threads', label: 'Threads', icon: 'threads', href: 'https://www.threads.com/@undp' },
   {
     className: 'instagram',
     label: 'Instagram',
     icon: 'instagram',
-    href: 'https://www.instagram.com/undp_shababeek/',
+    href: 'https://www.instagram.com/undparabic/?hl=en',
   },
-  { className: 'youtube', label: 'Youtube', icon: 'youtube', href: 'https://www.youtube.com/UNDP' },
+  { className: 'youtube', label: 'Youtube', icon: 'youtube', href: 'https://www.youtube.com/user/undparabstates' },
 ]
 
 function TwitterXIcon() {

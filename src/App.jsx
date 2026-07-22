@@ -1,5 +1,6 @@
 import { createElement, useEffect } from 'react'
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom'
+import ReactGA from 'react-ga4'
 import Lenis from 'lenis'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -62,7 +63,7 @@ import OmarBozouStoryPage from './OmarBozouStoryPage.jsx'
 import Footer from './Footer.jsx'
 import { leaderProfiles } from './leaderProfiles.js'
 import { STORY_PATHS } from './storyPaths.js'
-import { BASE_PATH } from './config.js'
+import { BASE_PATH, GA_MEASUREMENT_ID } from './config.js'
 import './App.css'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -157,11 +158,11 @@ const turnItems = [
     ariaLabel: 'Challenges into hope',
     lines: [
       [{ text: 'CHALLENGES' },
-        { text: 'INTO', strong: true },
+      { text: 'INTO', strong: true },
       ],
-      
+
       [
-        
+
         { text: 'HOPE', strong: true },
       ],
     ],
@@ -332,7 +333,7 @@ function LandingPage() {
             0.02,
             0.88,
             (window.innerHeight + startY + img.offsetTop - window.innerHeight * 0.92) /
-              getCommonTravel(),
+            getCommonTravel(),
           )
           gsap.set(img, { rotate: rotation.start })
 
@@ -830,7 +831,7 @@ function LandingPage() {
             const playPromise = crisisVideo.play()
 
             if (playPromise) {
-              playPromise.catch(() => {})
+              playPromise.catch(() => { })
             }
           }
 
@@ -909,7 +910,7 @@ function LandingPage() {
             const playPromise = stabilityVideo.play()
 
             if (playPromise) {
-              playPromise.catch(() => {})
+              playPromise.catch(() => { })
             }
           }
 
@@ -1223,9 +1224,9 @@ function LandingPage() {
               <a
                 className="hero-site-title-link"
                 href={MICROSITE_HOME_PATH}
-                aria-label="Go to the Youth responding to crisis homepage"
+                aria-label="Go to the Young People at the Frontlines in Times of Crisis Across the Arab States Region   homepage"
               >
-                Youth responding to crisis
+                Young People at the Frontlines in Times of Crisis Across the Arab States Region
               </a>
             </div>
           </header>
@@ -1320,12 +1321,12 @@ function LandingPage() {
               <h2 className="impact-heading">
                 <span className="impact-heading-desktop">
                   <span className="impact-heading-line">they are not waiting on the sidelines</span>
-                  <span className="impact-heading-line">--- they are leading with solutions</span>
+                  <span className="impact-heading-line">- they are leading with solutions</span>
                   <span className="impact-heading-line">and partnering in crisis response.</span>
                 </span>
                 <span className="impact-heading-mobile">
                   <span className="impact-heading-line">they are not waiting on the</span>
-                  <span className="impact-heading-line">sidelines ---they are leading</span>
+                  <span className="impact-heading-line">sidelines - they are leading</span>
                   <span className="impact-heading-line">with solutions and partnering</span>
                   <span className="impact-heading-line">in crisis response.</span>
                 </span>
@@ -1351,7 +1352,7 @@ function LandingPage() {
                     <p>
                       due to proximity to conflict
                       <br />
-                      in the Arab region
+                      in the Arab States region
                     </p>
                   </div>
                 </div>
@@ -1527,11 +1528,11 @@ function LandingPage() {
               <br />
               an investment in resilience.
             </p>
-          <h2>
-  This is why,{' '}
-  <br className="mission-heading-mobile-break" />
-  {' '}UNDP works to
-</h2>
+            <h2>
+              This is why,{' '}
+              <br className="mission-heading-mobile-break" />
+              {' '}UNDP works to
+            </h2>
           </div>
 
           <div className="mission-path" aria-label="UNDP works to support, amplify, and connect youth voices">
@@ -1678,7 +1679,7 @@ function LandingPage() {
                 reinforce trust between
               </span>
               <span className="stability-copy-line stability-copy-line-desktop">
-                institutions and communities &mdash; all which are essential for resilience and
+                institutions and communities &mdash; all of which are essential for resilience and
                 peace, and embodying the pillars of the
               </span>
               <span className="stability-copy-line stability-copy-line-desktop">
@@ -1688,7 +1689,7 @@ function LandingPage() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  UN Youth, Peace and Security agenda (YPS).
+                  UN Youth, Peace and Security (YPS) agenda.
                 </a>
               </span>
               <span className="stability-copy-line stability-copy-line-mobile">
@@ -1837,7 +1838,7 @@ function LandingPage() {
                 &mdash; often in the face of extraordinary challenges &mdash;
               </span>
               <span className="leaders-copy-line leaders-copy-line-mobile">
-                to generate meaningful impact
+                to generate meaningful impact.
               </span>
             </p>
           </div>
@@ -1899,10 +1900,30 @@ function ScrollToTop() {
   return null
 }
 
+function GoogleAnalytics() {
+  const location = useLocation()
+
+  useEffect(() => {
+    ReactGA.send({
+      hitType: 'pageview',
+      page: location.pathname + location.search,
+    })
+  }, [location.pathname, location.search])
+
+  return null
+}
+
 function App() {
+  useEffect(() => {
+    if (GA_MEASUREMENT_ID) {
+      ReactGA.initialize(GA_MEASUREMENT_ID)
+    }
+  }, [])
+
   return (
     <>
       <ScrollToTop />
+      {GA_MEASUREMENT_ID ? <GoogleAnalytics /> : null}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         {Object.entries(storyRoutes).map(([path, StoryPage]) => (

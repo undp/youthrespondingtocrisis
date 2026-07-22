@@ -2,3 +2,5 @@
 // (e.g. https://youthrespondingtocrisis.arabstates.undp.org/).
 // Also update segmentCount in public/404.html to match the number of path segments here.
 export const BASE_PATH = '/'
+
+export const GA_MEASUREMENT_ID = 'G-1RE7ZC3G8G'

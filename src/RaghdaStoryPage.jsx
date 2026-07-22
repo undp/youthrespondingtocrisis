@@ -775,9 +775,9 @@ function RaghdaStoryPage() {
             <a
               className="hero-site-title-link"
               href={MICROSITE_HOME_PATH}
-              aria-label="Go to the Youth responding to crisis homepage"
+              aria-label="Go to the Young People at the Frontlines in Times of Crisis Across the Arab States Region   homepage"
             >
-              Youth responding to crisis
+              Young People at the Frontlines in Times of Crisis Across the Arab States Region
             </a>
           </div>
         </header>

@@ -74,8 +74,10 @@
   top: 0;
   left: 0;
   z-index: 4;
+  height: 133px;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   gap: clamp(13px, 0.8vw, 16px);
   padding-left: clamp(28px, 1.66vw, 34px);
   padding-right: 28px;
@@ -99,11 +101,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4px;
+  gap: 0px;
   padding-top: 0;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   --hero-header-text-color: #ffffff;
   --hero-header-divider-color: rgba(255, 255, 255, 0.64);
 }
@@ -253,8 +261,14 @@
   background: #ffffff;
   color: #17425f;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 }
 
 .impact-section-stage {
@@ -360,7 +374,7 @@
   aspect-ratio: 472 / 398.5;
   background: rgba(39, 86, 120, 0.7);
   transform: rotate(-2deg);
-/* clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%); */
+  /* clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%); */
 }
 
 .kpi-card-front {
@@ -479,8 +493,14 @@
   margin: 0 auto;
   max-width: 460px;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 52px;
@@ -555,8 +575,14 @@
 .kpi-copy-displacement .kpi-statement {
   max-width: 100%;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-style: normal;
   font-size: clamp(23px, 1.42vw, 28px);
   font-weight: 600;
@@ -567,8 +593,14 @@
 
 .kpi-copy-displacement .kpi-statement strong {
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-style: normal;
   font-size: clamp(34px, 2.05vw, 40px);
   font-weight: 800;
@@ -627,8 +659,14 @@
   min-height: max(620px, 56.5625vw);
   color: #17425f;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #ffffff;
   background-image: var(--response-bg-desktop);
   background-position: center;
@@ -687,8 +725,14 @@
   background: #ffffff;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 }
 
 .turn-section-stage {
@@ -841,8 +885,14 @@
   overflow: hidden;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #0065a8;
   background-image: var(--mission-bg-desktop);
   background-position: center;
@@ -932,8 +982,14 @@
   margin: 0;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 1;
@@ -1037,8 +1093,14 @@
   overflow: hidden;
   color: #173f5c;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #ffffff;
   background-image: var(--celebrate-bg-desktop);
   background-position: center;
@@ -1093,7 +1155,11 @@
   --paint-color: #173f5c;
   width: max-content;
   max-width: 100%;
-  background-image: linear-gradient(90deg, var(--paint-color), var(--paint-color));
+  background-image: linear-gradient(
+    90deg,
+    var(--paint-color),
+    var(--paint-color)
+  );
   background-repeat: no-repeat;
   background-size: var(--paint-progress) 100%;
   background-position: left center;
@@ -1186,8 +1252,14 @@
   overflow: hidden;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #397941;
   background-image: var(--crisis-bg-desktop);
   background-position: center;
@@ -1259,7 +1331,8 @@
   display: block;
   object-fit: cover;
   object-position: center;
-  transform: translate(var(--crisis-video-x), var(--crisis-video-y)) rotate(-18.74deg) scale(1.08);
+  transform: translate(var(--crisis-video-x), var(--crisis-video-y))
+    rotate(-18.74deg) scale(1.08);
   transform-origin: center center;
   filter: saturate(0.95) contrast(0.96);
   pointer-events: none;
@@ -1280,8 +1353,14 @@
   overflow: hidden;
   color: #083c5a;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #ffffff;
   background-image: var(--stability-bg-desktop);
   background-position: center;
@@ -1465,8 +1544,14 @@
   overflow: hidden;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #006c9f;
   background-image: var(--progress-bg-desktop);
   background-position: center;
@@ -1502,8 +1587,14 @@
   margin: clamp(28px, 2.5vw, 48px) 0 0;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-style: normal;
   font-size: 32px;
   font-weight: 400;
@@ -1527,8 +1618,14 @@
   overflow: hidden;
   color: #123f5e;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #ffffff;
   background-image: var(--leaders-bg-desktop);
   background-position: center;
@@ -1554,8 +1651,14 @@
   margin: 0;
   color: #123f5e;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-style: normal;
   font-size: clamp(39px, 2.68vw, 55px);
   font-weight: 800;
@@ -1582,8 +1685,14 @@
   margin: clamp(17px, 1.15vw, 22px) 0 0;
   color: #123f5e;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-style: normal;
   font-size: clamp(18px, 1.22vw, 25px);
   font-weight: 400;
@@ -1670,7 +1779,7 @@
 .leader-card:nth-child(11) {
   width: clamp(204px, 17.8vw, 345px);
 }
-.leader-card:nth-child(5){
+.leader-card:nth-child(5) {
   translate: 12px 0;
 }
 
@@ -1726,7 +1835,7 @@
 
 @media (min-width: 821px) and (max-width: 1660px) {
   .leader-card:nth-child(10) {
-width: clamp(250px, 19vw, 330px);
+    width: clamp(250px, 19vw, 330px);
     translate: 30px 0;
   }
 
@@ -1758,8 +1867,14 @@ width: clamp(250px, 19vw, 330px);
   background: #0577b8;
   color: #ffffff;
   font-family:
-    "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "Proxima Nova",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 }
 
 .footer-inner {
@@ -2339,6 +2454,9 @@ width: clamp(250px, 19vw, 330px);
   }
 
   .hero-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
     gap: 12px;
     padding-left: 24px;
     padding-right: 18px;
@@ -2781,8 +2899,14 @@ width: clamp(250px, 19vw, 330px);
     max-width: 500px;
     margin-top: clamp(30px, 6vw, 36px);
     font-family:
-      "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, "Segoe UI", sans-serif;
+      "Proxima Nova",
+      Inter,
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: 600;
@@ -2809,7 +2933,8 @@ width: clamp(250px, 19vw, 330px);
   .crisis-video {
     width: 150%;
     height: 150%;
-    transform: translate(var(--crisis-video-x), var(--crisis-video-y)) rotate(-18.74deg) scale(1.08);
+    transform: translate(var(--crisis-video-x), var(--crisis-video-y))
+      rotate(-18.74deg) scale(1.08);
   }
 
   .stability-section {
@@ -2850,8 +2975,14 @@ width: clamp(250px, 19vw, 330px);
     max-width: 100%;
     margin-top: clamp(30px, 7vw, 40px);
     font-family:
-      "Proxima Nova", Inter, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, "Segoe UI", sans-serif;
+      "Proxima Nova",
+      Inter,
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
@@ -2974,7 +3105,7 @@ width: clamp(250px, 19vw, 330px);
   }
 
   .leader-card:nth-child(10) {
-width: clamp(250px, 70vw, 400px);
+    width: clamp(250px, 70vw, 400px);
     translate: 12px 0;
   }
 
@@ -3015,6 +3146,7 @@ width: clamp(250px, 70vw, 400px);
     gap: 10px;
     padding-left: 16px;
     padding-right: 14px;
+    height: 105px;
   }
 
   .hero-site-logo-link img {
@@ -3022,7 +3154,7 @@ width: clamp(250px, 70vw, 400px);
   }
 
   .hero-site-title-link {
-    max-width: 152px;
+    max-width: 100%;
     margin-inline-end: 0;
     font-size: 14px;
   }
@@ -3485,7 +3617,6 @@ width: clamp(250px, 70vw, 400px);
   .leader-card:nth-child(9) {
     width: min(218px, 55vw);
   }
-
 }
 
 @media (max-width: 430px) {
@@ -3523,7 +3654,6 @@ width: clamp(250px, 70vw, 400px);
     left: 22px;
     width: calc(100% - 44px);
   }
-
 }
 
 @media (max-width: 380px) {

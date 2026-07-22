@@ -3,42 +3,30 @@
 
 <head>
   <meta charset="UTF-8" />
-    <script>
-      // Restore the URL encoded by public/404.html for GitHub Pages SPA routing.
-      (function (l) {
-        if (l.search[1] === '/') {
-          var decoded = l.search.slice(1).split('&').map(function (s) {
-            return s.replace(/~and~/g, '&');
+  <script>
+    // Restore the URL encoded by public/404.html for GitHub Pages SPA routing.
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
           });
-          window.history.replaceState(
-            null, null,
-            l.pathname.slice(0, -1) + decoded[0] +
-            (decoded[1] ? '?' + decoded[1] : '') +
-            l.hash
-          );
-        }
-      }(window.location));
-    </script>
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) +
+          decoded[0] +
+          (decoded[1] ? "?" + decoded[1] : "") +
+          l.hash,
+        );
+      }
+    })(window.location);
+  </script>
   <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>undp-web</title>
-  <script type="module">
-    const gaMeasurementId = import.meta.env.GA_MEASUREMENT_ID
-
-    if (gaMeasurementId) {
-      window.dataLayer = window.dataLayer || []
-      window.gtag = function gtag() {
-        window.dataLayer.push(arguments)
-      }
-      window.gtag("js", new Date())
-      window.gtag("config", gaMeasurementId)
-
-      const gaScript = document.createElement("script")
-      gaScript.async = true
-      gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`
-      document.head.appendChild(gaScript)
-    }
-  </script>
+  <title>Young People at the Frontlines in Times of Crisis Across the Arab States Region</title>
 </head>
 
 <body>

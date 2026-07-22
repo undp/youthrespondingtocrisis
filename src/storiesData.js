@@ -17,17 +17,17 @@ export const storiesData = {
     topic: `Social Cohesion - Innovation - Youth Leadership - Climate Action/Adaptation`,
     title: `How Somalia’s Youth Are Reimagining National Unity Through Climate Action`,
     impact: {
-      intro: `Amid floods, and political fragility, young leaders like Abdirahman Yusuf are driving peacebuilding, green innovation, and entrepreneurship, proving that resilience, inclusion, and grassroots climate solutions can help rebuild resilient communities and reshape Somalia’s future.`,
+      intro: `Amid floods and political fragility, young leaders like Abdirahman Yusuf are driving peacebuilding, green innovation, and entrepreneurship, proving that resilience, inclusion, and grassroots climate solutions can help rebuild resilient communities and reshape Somalia’s future.`,
       stats: [
         {
           value: `7.8M`,
           label: `People`,
-          text: `Between 2021–2023, drought impacted 7.8 million people; El Niño floods in 2023 affected at least 247,000 people in informal`,
+          text: `Between 2021–2023, drought impacted 7.8 million people; El Niño floods in 2023 affected at least 247,000 people in informal settlements.`,
         },
         {
           value: `62,696+`,
           label: `Households`,
-          text: `Nature-based and climate-smart water systems supported by UNDP have benefited over 62,696 households with improved water access and climate resilience`,
+          text: `Nature-based and climate-smart water systems supported by UNDP have benefited over 62,696 households with improved water access and climate resilience.`,
         },
         {
           value: `6,285`,
@@ -37,7 +37,7 @@ export const storiesData = {
         {
           value: `1,800`,
           label: `Individuals / Host Communities / IDPs`,
-          text: `In Beledweyne, UNDP partners with the Saameynta Joint Programme to support livelihoods for IDPs and host communities — 1800 individuals received training and economic support in 2023, including youth, women, and vulnerable groups.`,
+          text: `In Beledweyne, UNDP partners with the Saameynta Joint Programme to support livelihoods for IDPs and host communities — 1,800 individuals received training and economic support in 2023, including youth, women, and vulnerable groups.`,
         },
         {
           value: `500`,
@@ -47,7 +47,7 @@ export const storiesData = {
       ],
     },
     introParagraphs: [
-      `In the spring of 2023, the Shabelle River in central Somalia burst its banks, inundating entire neighborhoods of Beledweyne, the capital of the Hiraan region. Thousands of families were displaced, as floodwaters surged through homes and farmland.`,
+      `In the spring of 2023, the Shabelle River in central Somalia burst its banks, inundating entire neighbourhoods of Beledweyne, the capital of the Hiraan region. Thousands of families were displaced, as floodwaters surged through homes and farmland.`,
       `For many residents, this flood is not an isolated disaster. It is part of a relentless pattern that has repeatedly submerged their streets, ruined their crops, and stranded their families. Beledweyne has been through too many cycles of prolonged droughts, flash floods and tensions over dwindling resources.`,
       `Somalia continues to face significant challenges across environmental, economic, political, security, societal, and human dimensions, highlighting the need for continued and focused efforts. 26-year-old Abdirahman Yusuf stands at the intersection of the country’s greatest poly-crisis challenges, and its greatest hope in its youth.`,
     ],
@@ -71,7 +71,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Today, Maan-Dhis has around 3,000 youth members across Somalia and works closely with government, local communities, and international partners like UNDP. Its initiatives include climate action advocacy, clean-up campaigns, climate education, solar street-lighting projects, and livelihood programs that have trained more than 1,500 young people, including women, displaced persons, and persons with disabilities.`,
+        text: `Today, Maan-Dhis has around 3,000 youth members across Somalia and works closely with the government, local communities, and international partners like UNDP. Its initiatives include climate action advocacy, clean-up campaigns, climate education, solar street-lighting projects, and livelihood programmes that have trained more than 1,500 young people, including women, displaced persons, and persons with disabilities.`,
       },
       {
         type: "paragraph",
@@ -82,10 +82,10 @@ export const storiesData = {
     sectionThreeDetailsBlocks: [
       {
         type: "paragraph",
-        text: `In Baladweyne, Maan-Dhis works with local communities, the government, and donors to develop flood-control systems and climate-smart agriculture solutions. Youth in Somalia generally face social and cultural barriers, including limited roles in decision-making and leadership, particularly for young women. Breaking through such barriers, Abdirahman focuses on youth empowerment and knowledge transfer. The Somalia Entrepreneurship Summit, which he organises annually with Maan-Dhis, brings together government representatives, private sector leaders, refugees, academics, and youth innovators to promote local enterprise.`,
+        text: `In Beledweyne, Maan-Dhis works with local communities, the government, and donors to develop flood-control systems and climate-smart agriculture solutions. Youth in Somalia generally face social and cultural barriers, including limited roles in decision-making and leadership, particularly for young women. Breaking through such barriers, Abdirahman focuses on youth empowerment and knowledge transfer. The Somalia Entrepreneurship Summit, which he organises annually with Maan-Dhis, brings together government representatives, private sector leaders, refugees, academics, and youth innovators to promote local enterprise.`,
       },
     ],
-    sectionFourQuote: `“Mandis is unique in Somalia for being entirely youth-led and for bridging local and national leadership with international partners. As a result of youth advocacy, in 2023, the government registered around 3,000 small enterprises.”`,
+    sectionFourQuote: `“Maan-Dhis is unique in Somalia for being entirely youth-led and for bridging local and national leadership with international partners. As a result of youth advocacy, in 2023, the government registered around 3,000 small enterprises.”`,
     sectionFourDetailsBlocks: [
       {
         type: "paragraph",
@@ -112,17 +112,17 @@ export const storiesData = {
         {
           value: `$38M`,
           label: `Budget Over Three Years`,
-          text: `UNDP’s Digital for Sustainable Development Hub (D4SD): Morocco and UNDP launched a Digital for Sustainable Development Hub with a US $38 million budget over three years.`,
+          text: `UNDP’s Digital for Sustainable Development Hub (D4SD): Morocco and UNDP launched a Digital for Sustainable Development Hub with a USx$38 million budget over three years.`,
         },
         {
           value: `20`,
           label: `Young Leaders`,
-          text: `UNDP Morocco implemented an initiative under this theme focusing on youth and green economy: The first cohort of Youth For Sustainability included 20 young leaders aged 18–30.`,
+          text: `UNDP Morocco implemented an initiative under this theme focusing on youth and green economy. The first cohort of Youth For Sustainability included 20 young leaders aged 18–30.`,
         },
       ],
     },
     introParagraphs: [
-      `When 25-year-old Ali Bendahbia speaks about the future of Morocco, he never begins with entrepreneurship skills and high-salaried job packages and job opportunities. Instead, Ali speaks about school classrooms and live simulation tools; gamified curriculums, and digital platforms designed for social development and interactive, inclusive quality education.`,
+      `When 25-year-old Ali Bendahbia speaks about the future of Morocco, he never begins with entrepreneurship skills and high-salaried job packages and job opportunities. Instead, Ali speaks about school classrooms and live simulation tools, gamified curriculums, and digital platforms designed for social development and interactive, inclusive quality education.`,
     ],
     openingQuote: {
       text: `“We are a generation with a cellphone attached to our hands but very little knowledge on how to best use it in our favour and for our own good for innovation and social development. Our children are expected to do nothing but study until they reach college. Internship opportunities begin after graduation. But that is too late, and it must change.”`,
@@ -165,7 +165,7 @@ export const storiesData = {
     sectionThreeQuote: `“I sat once next to a young boy who had lost his home, his cousins, and most of his belongings in the aftermath of the earthquake. He was barefoot in freezing weather. So I shared my yogurt with him, and he dipped his finger in it. He was curious about its texture. He had never seen a yogurt cup before. It hit me then. Emergency response in times of crisis is an ongoing necessity in Morocco. Our youth need more exposure and education. We must create a system where education is fun, engaging and very accessible to all Moroccan children, not just those living in big cities.”`,
     sectionThreeDetailsBlocks: [],
     vision: {
-      text: `For Ali, emergency response, poverty eradication, and social development are all interlinked. Innovation must be rooted in service, and empowering young Moroccans to engage with knowledge, and to collectively take agency for their future, can only strengthen communities far beyond the classroom.`,
+      text: `For Ali, emergency response, poverty eradication, and social development are all interlinked. Innovation must be rooted in service, and empowering young Moroccans to engage with knowledge and to collectively take agency for their future can only strengthen communities far beyond the classroom.`,
       highlightedPhrases: [],
     },
   },
@@ -194,7 +194,7 @@ export const storiesData = {
         {
           value: `1,046`,
           label: `Local Mediators`,
-          text: `The ERRY Joint Programme has trained 1,046 local mediators in conflict resolution and led 265 dialogue sessions plus 81 community–led peace projects`,
+          text: `The ERRY Joint Programme has trained 1,046 local mediators in conflict resolution and led 265 dialogue sessions plus 81 community-led peace projects.`,
         },
       ],
     },
@@ -203,13 +203,13 @@ export const storiesData = {
       `Few in the room knew that behind her calm presence was a life marked by immense suffering as a result of displacement, lost friendships, shelled classrooms, and the daily uncertainties of growing up in a city which has stood witness to years of conflicts and unrest. Ola, who was only 22 years old, spoke for a generation of Yemeni youth that believes that peace is possible, and a future where cooperation, dignity, and dialogue will prevail.`,
     ],
     openingQuote: {
-      text: `“I was raised in a small village. As children we led a simple life, and we learned to sustain our livelihoods on agriculture. I finished school in my village. In 2011, I moved to the big city and it was a cultural shock. I realised how big the world is. I joined university, and I chose to study Law. That’s when I started to figure out what I want in life and begin my journey with volunteer work.”`,
+      text: `“I was raised in a small village. As children, we led a simple life, and we learned to sustain our livelihoods on agriculture. I finished school in my village. In 2011, I moved to the big city and it was a cultural shock. I realised how big the world is. I joined university, and I chose to study Law. That’s when I started to figure out what I want in life and begin my journey with volunteer work.”`,
       highlightedPhrases: [`Livelihoods`, `Agriculture`, `Volunteer`],
     },
     sectionTwoBlocks: [
       {
         type: "paragraph",
-        text: `Ola moved to Taiz, a city perched 1400 meters above the Red Sea, to pursue her university education. She walked long distances, saved every stipend she earned from attending NGO workshops, and studied whenever she could find a quiet space. She began volunteering with her classmates, raising funds to repair their university’s broken chairs, outdated blackboards, and crumbling walls. “We were just three girls,” she recalls, “and we fixed our university ourselves.” That first success lit the path that would eventually define her life’s work.`,
+        text: `Ola moved to Taiz, a city perched 1,400 meters above the Red Sea, to pursue her university education. She walked long distances, saved every stipend she earned from attending NGO workshops, and studied whenever she could find a quiet space. She began volunteering with her classmates, raising funds to repair their university’s broken chairs, outdated blackboards, and crumbling walls. “We were just three girls,” she recalls, “and we fixed our university ourselves.” That first success lit the path that would eventually define her life’s work.`,
       },
       {
         type: "paragraph",
@@ -232,7 +232,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `They participated in a number of UN led capacity-building programmes including project management, conflict mediation. Throughout her journey, UNDP has remained one of the steady partners helping her turn ideas into sustainable action, supporting Sheba Youth Foundation’s activities.`,
+        text: `They participated in a number of UN-led capacity-building programmes including project management and conflict mediation. Throughout her journey, UNDP has remained one of the steady partners helping her turn ideas into sustainable action, supporting Sheba Youth Foundation’s activities.`,
       },
       {
         type: "pull-quote",
@@ -240,7 +240,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `In Taiz City, Ola is known as the young woman who helps mediate disputes over water, a resource that is increasingly scarce in Yemen. But for Ola, her real breakthrough is her work on women empowerment and participation in decision making. Her path has also presented new horizons for young women who grew up in rural Yemeni communities. Her own sister was able to travel, study, and receive a scholarship abroad. Today, Ola is pursuing her Master’s degree in a leading university in Cairo, Egypt. She’s also contributing to her family back home.`,
+        text: `In Taiz City, Ola is known as the young woman who helps mediate disputes over water, a resource that is increasingly scarce in Yemen. But for Ola, her real breakthrough is her work on women's empowerment and participation in decision making. Her path has also presented new horizons for young women who grew up in rural Yemeni communities. Her own sister was able to travel, study, and receive a scholarship abroad. Today, Ola is pursuing her Master’s degree in a leading university in Cairo, Egypt. She’s also contributing to her family back home.`,
       },
       {
         type: "pull-quote",
@@ -355,7 +355,7 @@ export const storiesData = {
     topic: `Social Cohesion and Resilience Building - Gender Equality and Women’s Empowerment - Youth Leadership`,
     title: `First Response, Lasting Impact: Gabby Fraidy’s Model for Building Connected, Crisis-Ready Communities in Lebanon`,
     impact: {
-      intro: `UNDP’s YLP partner Gabby Freida’s story highlights the role youth play in supporting displaced families and crisis-affected communities in Lebanon`,
+      intro: `UNDP’s YLP partner Gabby Freida’s story highlights the role youth play in supporting displaced families and crisis-affected communities in Lebanon.`,
       stats: [
         {
           value: `2.7M`,
@@ -372,7 +372,7 @@ export const storiesData = {
     introParagraphs: [
       `In Lebanon’s modern history, the southern region has repeatedly witnessed border tensions which sometimes escalated to armed conflicts, disrupting daily life and forcing families to flee their homes.`,
       `In 2023, the cross-border clashes intensified, rippling through the country, causing a surge of displacements, and imposing significant strain on infrastructure and the already fragile economic situation across cities in Lebanon.`,
-      `Gabby Fraidy was 22, a social worker who was recognised as an influential young woman in her community. Her family had to leave their home in the suburbs of Beirut in search for safer grounds. Looking for a safe place to start, she found a school next door, which had been converted to house 21 families seeking shelter from the war. Her first interventions focused on providing immediate emotional support and practical aid to displaced children and families.`,
+      `Gabby Fraidy was 22, a social worker who was recognised as an influential young woman in her community. Her family had to leave their home in the suburbs of Beirut in search of safer grounds. Looking for a safe place to start, she found a school next door, which had been converted to house 21 families seeking shelter from the war. Her first interventions focused on providing immediate emotional support and practical aid to displaced children and families.`,
     ],
     openingQuote: {
       text: `“I had nothing to offer but a small ball and my skill as a social worker, but I knew this was enough to give me the courage to knock on the door and offer my services to the displaced families. The children were shy and scared. But it wasn’t long till they all joined in and started to look forward to our daily play circle. It was not just a circle for playing with the ball, it became a circle of trust for those children. A moment in their days when life became normal and safe.”`,
@@ -389,7 +389,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Gabby had already been a frontline volunteer on many fronts. The year 2020 had hit Lebanon hard, with a nation-wide shut down due to COVID-19 followed by the Beirut Port explosion. The explosion was estimated to be the largest non-nuclear, non-military explosion ever recorded in human history. It caused massive destruction in residential areas, leaving over 300 thousand people displaced and in urgent need of basic supplies. Gabby focused her efforts on humanitarian relief for women, elderly people, and teenagers in the affected neighborhoods, addressing overlooked needs such as hygiene kits, and creating structured community networks to track and respond to local vulnerabilities.`,
+        text: `Gabby had already been a frontline volunteer on many fronts. The year 2020 had hit Lebanon hard, with a nation-wide shut down due to COVID-19 followed by the Beirut Port explosion. The explosion was estimated to be the largest non-nuclear, non-military explosion ever recorded in human history. It caused massive destruction in residential areas, leaving over 300 thousand people displaced and in urgent need of basic supplies. Gabby focused her efforts on humanitarian relief for women, elderly people, and teenagers in the affected neighbourhoods, addressing overlooked needs such as hygiene kits and creating structured community networks to track and respond to local vulnerabilities.`,
       },
       {
         type: "pull-quote",
@@ -430,26 +430,26 @@ export const storiesData = {
     subjectName: `Moukhtar Itani`,
     country: `Lebanon`,
     topic: `Social Cohesion - Innovation - Youth Leadership`,
-    title: `From Pillows to Purpose: How Mokhtar Itani Leverages Small-scale Ideas to Create Wide-reach Community Impact`,
+    title: `From Pillows to Purpose: How Moukhtar Itani Leverages Small-scale Ideas to Create Wide-reach Community Impact`,
     impact: {
-      intro: `UNDP YLP alum Mokhtar Itani mobilised volunteers and partnerships to produce thousands of pillows for displaced families in Beirut. He showcases the power of youth-led innovation, community solidarity, and digital tools in strengthening resilience and social cohesion during crisis.`,
+      intro: `UNDP YLP alum Moukhtar Itani mobilised volunteers and partnerships to produce thousands of pillows for displaced families in Beirut. He showcases the power of youth-led innovation, community solidarity, and digital tools in strengthening resilience and social cohesion during crisis.`,
       stats: [
         {
           value: `4,000`,
           label: `Youth`,
-          text: `~4,000 youth in Lebanon have joined UNDP’s Youth Leadership Programme over its 10year implementation. These participants have launched over 400 social innovation projects impacting communities.`,
+          text: `~4,000 youth in Lebanon have joined UNDP’s Youth Leadership Programme over its 10-year implementation. These participants have launched over 400 social innovation projects impacting communities.`,
         },
         {
           value: `1,200`,
           label: `YLP Alumni`,
-          text: `UNDP has supported over 1,200 committed YLP alumni through partnerships with Lebanese institutions to amplify youth led development work`,
+          text: `UNDP has supported over 1,200 committed YLP alumni through partnerships with Lebanese institutions to amplify youth led development work.`,
         },
       ],
     },
     introParagraphs: [
       `It was another busy morning in the Mazraa neighbourhood in southwestern Beirut, with its narrow streets and main thoroughfares intersecting with small shops, schools, and local markets.`,
-      `Since the escalation of hostilities in October of 2023, thousands had fled the border region in the south. Across the street from Corniche alMazraa, one of the neighborhood’s vital inland arteries, half a dozen men sat at their tables on the pavement, their backs bent, their hands rapidly passing colorful cloth through the sharp blades of their sewing machines. Their rhythmic clatter blended with the bustle of Mazraa’s streets.`,
-      `Inside a small shop behind the sewing crew, Mokhtar Itani stood at a large wooden table, scissors in hand, cutting precise rectangles of cloth. Volunteers and family members moved around him, stuffing pillowcases with fluffy fillings and stacking them neatly for distribution.`,
+      `Since the escalation of hostilities in October 2023, thousands had fled the border region in the south. Across the street from Corniche El Mazraa, one of the neighbourhood's vital inland arteries, half a dozen men sat at their tables on the pavement, their backs bent, their hands rapidly passing colorful cloth through the sharp blades of their sewing machines. Their rhythmic clatter blended with the bustle of Mazraa’s streets.`,
+      `Inside a small shop behind the sewing crew, Moukhtar Itani stood at a large wooden table, scissors in hand, cutting precise rectangles of cloth. Volunteers and family members moved around him, stuffing pillowcases with fluffy fillings and stacking them neatly for distribution.`,
       `Despite the neighbourhood’s constant movement, the workshop felt like a small island of purpose and calm, a place where skill and a strong sense of community converged to turn scraps of fabric into comfort for those displaced by conflict.`,
       `Raised in Ras Beirut and now living in Bachamoun, Moukhtar’s journey began at home. What would later grow into a city-wide response started as a small family effort, with his mother sewing pillows and Moukhtar selling them online through his platform, DeepSleepLB.`,
     ],
@@ -460,7 +460,7 @@ export const storiesData = {
     sectionTwoBlocks: [
       {
         type: "paragraph",
-        text: `By the end of five weeks, Mokhtar’s team had produced 12,000 pillows; raised over $14,000; and mobilised over 100 volunteers. In a city facing waves of displacement and economic hardship, with over 1,000,000 people internally displaced, Mukhtar’s initiative transformed simple materials into tangible comfort, offering warmth and dignity to those who had fled their homes in search of safety.`,
+        text: `By the end of five weeks, Moukhtar's team had produced 12,000 pillows; raised over $14,000; and mobilised over 100 volunteers. In a city facing waves of displacement and economic hardship, with over 1,000,000 people internally displaced, Moukhtar's initiative transformed simple materials into tangible comfort, offering warmth and dignity to those who had fled their homes in search of safety.`,
       },
       {
         type: "pull-quote",
@@ -468,11 +468,11 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Partnerships played a key role in expanding Mokhtar’s reach. Joining the UNDP Advisory Board, he gained exposure to large-scale programs, advisory processes, and peer collaboration. Through the Youth Leadership Programme he connected with other youth leaders, shared experiences, and applied his social entrepreneurship skills to broader initiatives aimed at fostering youth engagement and innovation.`,
+        text: `Partnerships played a key role in expanding Moukhtar's reach. Joining the UNDP Advisory Board, he gained exposure to large-scale programmes, advisory processes, and peer collaboration. Through the Youth Leadership Programme he connected with other youth leaders, shared experiences, and applied his social entrepreneurship skills to broader initiatives aimed at fostering youth engagement and innovation.`,
       },
       {
         type: "paragraph",
-        text: `Mokhtar, a graduate of computer science and a start-up pioneer since the age of 9, has consistently sought out challenges that bridge innovation with social impact. Community service was not an act of kindness, but rather an entrenched family tradition.`,
+        text: `Moukhtar, a graduate of computer science and a start-up pioneer since the age of 9, has consistently sought out challenges that bridge innovation with social impact. Community service was not an act of kindness, but rather an entrenched family tradition.`,
       },
       {
         type: "pull-quote",
@@ -480,14 +480,14 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Mokhtar’s project earned him a Gold Medal at a national competition. He continued to pursue innovation through university, joining internationally acclaimed competitions, which paved the way for expanding his connections and perspective. In 2017, he joined the UNDP Youth Leadership Programme YLP3, developing a project to digitise the Lebanese curriculum into an e-learning platform for working youth who had dropped out of school.`,
+        text: `Moukhtar's project earned him a Gold Medal at a national competition. He continued to pursue innovation through university, joining internationally acclaimed competitions, which paved the way for expanding his connections and perspective. In 2017, he joined the UNDP Youth Leadership Programme YLP3, developing a project to digitise the Lebanese curriculum into an e-learning platform for working youth who had dropped out of school.`,
       },
     ],
-    sectionThreeQuote: `“I would meet young people who left school because they had to support their families… I wanted to create a way for them to work and study at the same time.” By 2023, Mokhtar was already a veteran of social innovation committed to empowering young Lebanese people to stay agile in a country plagued with violence and insecurity. “In a fragile context, before we teach young people about social entrepreneurship, we must free them financially and increase their employability. Teaching them the agility to learn new tools, and to stay on top of what the job market needs when conflict prevents physical mobility, are all key to prepare them for innovation.”`,
+    sectionThreeQuote: `“I would meet young people who left school because they had to support their families… I wanted to create a way for them to work and study at the same time.” By 2023, Moukhtar was already a veteran of social innovation committed to empowering young Lebanese people to stay agile in a country plagued with violence and insecurity. “In a fragile context, before we teach young people about social entrepreneurship, we must free them financially and increase their employability. Teaching them the agility to learn new tools, and to stay on top of what the job market needs when conflict prevents physical mobility, are all key to prepare them for innovation.”`,
     sectionThreeDetailsBlocks: [
       {
         type: "paragraph",
-        text: `After the success of his pillow distribution initiative, Mokhtar firmly believes that digital technology is a key contributor for social cohesion, playing a important role in supporting youth and volunteer work for a sustainable long-term planning for resilience, peace, and stability building.`,
+        text: `After the success of his pillow distribution initiative, Moukhtar firmly believes that digital technology is a key contributor for social cohesion, playing an important role in supporting youth and volunteer work for a sustainable long-term planning for resilience, peace, and stability-building.`,
       },
     ],
     vision: {
@@ -522,7 +522,7 @@ export const storiesData = {
         {
           value: `200`,
           label: `Youth Peace Ambassadors`,
-          text: `Youth peacebuilding and mediation outputs: More than 200 Youth Peace Ambassadors were trained, along with 640 youth in mediation, human rights and conflict resolution — providing them with knowledge to support community dialogue and peace`,
+          text: `Youth peacebuilding and mediation outputs: More than 200 Youth Peace Ambassadors were trained, along with 640 youth in mediation, human rights and conflict resolution — providing them with knowledge to support community dialogue and peace.`,
         },
         {
           value: `4,600`,
@@ -542,11 +542,11 @@ export const storiesData = {
     sectionTwoBlocks: [
       {
         type: "paragraph",
-        text: `Zahia saw that women and children were hit the hardest. In her immediate response, she pushed for the provision of sanitary products as part of the basic needs package. She stressed that preserving women’s dignity and enabling them to move freely was a first step to build their resilience.`,
+        text: `Zahia saw that women and children were hit the hardest. In her immediate response, she pushed for the provision of sanitary products as part of the basic needs package. She stressed that preserving women’s dignity and enabling them to move freely was a first step to building their resilience.`,
       },
       {
         type: "paragraph",
-        text: `Most of the arriving women were weary of repeated moves before finally finding some resemblance of a home in New Halfa. They were widowed, orphaned, and many were the sole providers for their families. Finding them real opportunities to gain their livelihoods was Zahia’s next goal.`,
+        text: `Most of the arriving women were weary of repeated moves before finally finding some resemblance of a home in New Halfa. They were widowed, orphaned, and many were the sole providers for their families. Finding them real opportunities to earn their livelihoods was Zahia’s next goal.`,
       },
       {
         type: "paragraph",
@@ -562,7 +562,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Her volunteer journey started much earlier than the war. In 2017, Zahia was still a university student, when she formed a student group that aimed to combat violence and help underprivileged families. She was an active member of New Halfa Women’s Platform, which advocate for women’s rights and civil governance.`,
+        text: `Her volunteer journey started much earlier than the war. In 2017, Zahia was still a university student when she formed a student group that aimed to combat violence and help underprivileged families. She was an active member of New Halfa Women’s Platform, which advocates for women’s rights and civil governance.`,
       },
       {
         type: "paragraph",
@@ -596,7 +596,7 @@ export const storiesData = {
         {
           value: `4,000`,
           label: `Young People`,
-          text: `Youth participation in peace activities: Nearly 4,000 young people participated in peacebuilding activities such as community sports events designed to build solidarity across conflict lines.`,
+          text: `Youth participation in peace activities: Nearly 4,000 young people participated in peacebuilding activities, such as community sports events designed to build solidarity across conflict lines.`,
         },
       ],
     },
@@ -611,7 +611,7 @@ export const storiesData = {
     sectionTwoBlocks: [
       {
         type: "paragraph",
-        text: `Since the war erupted in 2023, millions have fled conflict zones in Khartoum, and neighbouring states. Six hundred kilometers further to the east, Kassala, became a refuge for thousands of Sudanese families, filling its schools, clinics, and adding pressure to limited public services. The Atbara River, a main tributary to the river Nile, passes through Kassala town, causing seasonal floods, destroying refugee shelters, and exacerbating pressure on already stretched infrastructure. The cascading crises have only deepened the burden on host communities and further eroded scarce resources.`,
+        text: `Since the war erupted in 2023, millions have fled conflict zones in Khartoum and neighbouring states. Six hundred kilometers farther to the east, Kassala became a refuge for thousands of Sudanese families, filling its schools, clinics, and adding pressure to limited public services. The Atbara River, a main tributary to the Nile River, passes through Kassala town, causing seasonal floods, destroying refugee shelters, and exacerbating pressure on already stretched infrastructure. The cascading crises have only deepened the burden on host communities and further eroded scarce resources.`,
       },
       {
         type: "paragraph",
@@ -619,7 +619,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Abdalla and fellow students converted schools into shelters, and set-up mobile clinics to meet urgent health needs. The organisation of shelters in schools was carried out in collaboration with neighborhood residents. He also organised health awareness and education campaigns, especially addressing cold weather risks and basic sanitation in temporary shelters. A veteran of UNDP’s Youth Leadership Programme, where he was trained on local mediation and peacebuilding, he was quickly becoming a leading voice in community-led crisis response and peacebuilding, not just treating illness, but healing society from within.`,
+        text: `Abdalla and fellow students converted schools into shelters, and set up mobile clinics to meet urgent health needs. The organisation of shelters in schools was carried out in collaboration with neighbourhood residents. He also organised health awareness and education campaigns, especially addressing cold weather risks and basic sanitation in temporary shelters. A veteran of UNDP’s Youth Leadership Programme, where he was trained on local mediation and peacebuilding, he was quickly becoming a leading voice in community-led crisis response and peacebuilding, not just treating illness, but healing society from within.`,
       },
       {
         type: "pull-quote",
@@ -685,7 +685,7 @@ export const storiesData = {
         {
           value: `140,000`,
           label: `People`,
-          text: `Through three UNDP-supported One-Stop Community Centers, over 140,000 Palestinian have accessed integrated, multi-sectoral services, ranging from legal aid and higher education support to psychosocial assistance, reinforcing social cohesion and community resilience.`,
+          text: `Through three UNDP-supported One-Stop Community Centers, over 140,000 Palestinians have accessed integrated, multi-sectoral services, ranging from legal aid and higher education support to psychosocial assistance, reinforcing social cohesion and community resilience.`,
         },
       ],
     },
@@ -693,8 +693,8 @@ export const storiesData = {
       `“My name is Raghda. The meaning of my name is living in peace and comfort. My mom used to repeat that to me so that I could hold on to it despite the circumstances I grew up in, where none of this peace existed. So, I decided to be the reason it exists, to bring some peace and comfort to those around me.”`,
       `On religious occasions, Raghda can always be seen walking through the debris caused by the war on Gaza, inside the ruins of fallen houses, decorating them with candles and makeshift garlands to bring some joy to the Holy celebration amid the gloom. Born and raised in war-torn Gaza, the 24-year-old human rights lawyer insists that bringing normalcy to the everyday life of Palestinians is a lifeline.`,
       `Her studies in law were a pathway to justice and protection for the vulnerable, especially children. This grounding defines her vision of a more humane society. She sees preserving dignity and empathy as everyday resistance.`,
-      `At 18, Raghda joined Save Youth Future Society (SYFS), a youth-led organisation dedicated to psychosocial and humanitarian support for Palestinian children in Gaza. Through the trauma of displacement and scarcity, she began organising emotional support sessions for children and parents. It began as modest initiative in makeshift classrooms and quickly grew to become a model of community resilience.`,
-      `Her creativity helped rebuild trust and provide safety in the midst of chaos, showing that compassion is the first step towards recovery. Her signature initiative, “emotional charging,” built crucial bridges of warmth and trust in families shattered.`,
+      `At 18, Raghda joined Save Youth Future Society (SYFS), a youth-led organisation dedicated to psychosocial and humanitarian support for Palestinian children in Gaza. Through the trauma of displacement and scarcity, she began organising emotional support sessions for children and parents. It began as a modest initiative in makeshift classrooms and quickly grew to become a model of community resilience.`,
+      `Her creativity helped rebuild trust and provide safety in the midst of chaos, showing that compassion is the first step towards recovery. Her signature initiative, “emotional charging,” built crucial bridges of warmth and trust in shattered families.`,
     ],
     openingQuote: {
       text: `“In a tent, where multiple families reside, there is no privacy, no space for a parent to get close to their child. There are no hugs, no intimacy, no sense of safety usually derived from those moments. To break this emotional barrier, we started educating children about the importance of emotional charging. That their emotions are like a mobile phone, in need of regular recharge. We told them their moms were the charging dock. That whenever they needed, they had to request emotional charging from their parents.”`,
@@ -711,7 +711,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Raghda’s work extends beyond emergency relief. Through partnerships with UNICEF, the International Rescue Committee (IRC), and others, SYFS is building a long-term foundation for youth empowerment, psychosocial care, and peace education. Her daily journey across Gaza, captures the reality of youth-led humanitarian work under siege. Without transport, she walks for hours to reach traumatised children, improvising games from cans and fabric scraps. Despite hunger, exhaustion, and fear, she insists that Palestinian youth in Gaza “carry the load in the field.”`,
+        text: `Raghda’s work extends beyond emergency relief. Through partnerships with UNICEF, the International Rescue Committee (IRC), and others, SYFS is building a long-term foundation for youth empowerment, psychosocial care, and peace education. Her daily journey across Gaza captures the reality of youth-led humanitarian work under siege. Without transport, she walks for hours to reach traumatised children, improvising games from cans and fabric scraps. Despite hunger, exhaustion, and fear, she insists that Palestinian youth in Gaza “carry the load in the field.”`,
       },
       {
         type: "paragraph",
@@ -722,7 +722,7 @@ export const storiesData = {
     sectionThreeDetailsBlocks: [
       {
         type: "paragraph",
-        text: `As Gaza recovery begins, UNDP is contributing on the removal of 61 million tons of debris generated by the war, paving the roads and restoring access to schools, hospitals and deserted towns so that Raghda and the thousands of Palestinian youth eager to own the narrative of their future can start rebuilding.`,
+        text: `As Gaza recovery begins, UNDP is contributing to the removal of 61 million tons of debris generated by the war, paving the roads and restoring access to schools, hospitals and deserted towns so that Raghda and the thousands of Palestinian youth eager to own the narrative of their future can start rebuilding.`,
       },
     ],
     vision: {
@@ -747,7 +747,7 @@ export const storiesData = {
     topic: `Youth Empowerment - Governance - Digital and Tech Innovation - Youth Empowerment`,
     title: `Digital Healing: How a Young Palestinian Engineer Is Reimagining Recovery Through Volunteerism and Technology`,
     impact: {
-      intro: `Ahmad, a Palestinian innovator from Jenin, transforms challenges into solutions, from sustainable products to a digital platform aiding war-affected disabilities. His youth-led initiatives link volunteerism, innovation, and humanitarian response, empowering communities and fostering resilience amid conflict.`,
+      intro: `Ahmad, a Palestinian innovator from Jenin, transforms challenges into solutions, from sustainable products to a digital platform aiding people with war-affected disabilities. His youth-led initiatives link volunteerism, innovation, and humanitarian response, empowering communities and fostering resilience amid conflict.`,
       stats: [
         {
           value: `59,000`,
@@ -777,16 +777,16 @@ export const storiesData = {
       ],
     },
     introParagraphs: [
-      `Born and raised in Jenin a city that has experienced repeated military operations and economic disruption, Ahmed Assaf describes himself as “a child of crisis.” His volunteer journey began at the age of twelve when, inspired by his older sister, he joined a local community initiative to read stories to children in the streets. That simple act of service sparked a lifelong commitment to volunteerism, learning, and community building. Ahmed grew up understanding that resilience is not just survival, it’s the courage to create solutions, to continue dreaming, and to chart one’s own path.`,
+      `Born and raised in Jenin, a city that has experienced repeated military operations and economic disruption, Ahmad Assaf describes himself as “a child of crisis.” His volunteer journey began at the age of twelve when, inspired by his older sister, he joined a local community initiative to read stories to children in the streets. That simple act of service sparked a lifelong commitment to volunteerism, learning, and community building. Ahmad grew up understanding that resilience is not just survival, it’s the courage to create solutions, to continue dreaming, and to chart one’s own path.`,
     ],
     openingQuote: {
-      text: `“I remember the first time I took a taxi alone, carrying my story book and heading to a neighboring village looking for opportunities to volunteer and read to children. I was so scared to speak in public and decided to start with an old man I met at the Mosque. It turned out he knew my grandfather, and he immediately gave me the confidence to read out loud. That day, I returned home feeling like I had just won a million dollars.”`,
+      text: `“I remember the first time I took a taxi alone, carrying my story book and heading to a neighbouring village looking for opportunities to volunteer and read to children. I was so scared to speak in public and decided to start with an old man I met at the Mosque. It turned out he knew my grandfather, and he immediately gave me the confidence to read out loud. That day, I returned home feeling like I had just won a million dollars.”`,
       highlightedPhrases: [`volunteer`, `confidence`],
     },
     sectionTwoBlocks: [
       {
         type: "paragraph",
-        text: `At university, Ahmed studied Mechatronics Engineering and became a passionate advocate for sustainability. His first major achievement, which was a sustainable olive oil bottle made from olive skin, received international recognition from the World Packaging Organisation (WPO), with support from UNIDO. Later, he joined Eco-Rebuild in Jordan, an initiative that focuses on community empowerment providing personal items from household supplies, building shelter from rubble, and limiting soil pollution caused by debris.`,
+        text: `At university, Ahmad studied Mechatronics Engineering and became a passionate advocate for sustainability. His first major achievement, which was a sustainable olive oil bottle made from olive skin, received international recognition from the World Packaging Organisation (WPO), with support from UNIDO. Later, he joined Eco-Rebuild in Jordan, an initiative that focuses on community empowerment providing personal items from household supplies, building shelter from rubble, and limiting soil pollution caused by debris.`,
       },
       {
         type: "pull-quote",
@@ -794,11 +794,11 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Ahmed established his own company while still a student, he called it “Baraka”, which means Blessing. It focuses on innovation and creativity to turn waste into useful sustainable products that Palestinians need but have no access to. But when the military operations intensified, his focus shifted towards addressing lifesaving needs. Feeling helpless as he witnessed the growing toll of injuries and displacement, he realised there was no centralised data on those wounded or disabled as a result of the violence.`,
+        text: `Ahmad established his own company while still a student, he called it “Baraka”, which means Blessing. It focuses on innovation and creativity to turn waste into useful sustainable products that Palestinians need but have no access to. But when the military operations intensified, his focus shifted towards addressing lifesaving needs. Feeling helpless as he witnessed the growing toll of injuries and displacement, he realised there was no centralised data on those wounded or living with disabilities as a result of the violence.`,
       },
       {
         type: "paragraph",
-        text: `From this tragedy, Ahmed found an opportunity to be useful. He created a digital platform and mobile application designed to help people self-test for hearing, sight, and emotional impairments caused by the ongoing violence. The project was inspired by a deeply personal story.`,
+        text: `From this tragedy, Ahmad found an opportunity to be useful. He created a digital platform and mobile application designed to help people self-test for hearing, sight, and emotional impairments caused by the ongoing violence. The project was inspired by a deeply personal story.`,
       },
     ],
     sectionThreeQuote: `“When my mother experienced hearing loss and we visited the doctor, we were told it could have been caused by exposure to a very loud sound. At that moment, I immediately thought of the people in Gaza who are exposed to explosions every few minutes. That realisation deeply affected me and became a turning point, pushing me to think about how I could create a solution to support them.”`,
@@ -809,7 +809,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `For Ahmed, volunteerism is not charity. It is an expression of active citizenship. His work reflects a deep belief that people affected by crisis must be part of designing their own solutions. Reflecting on the realities facing many young people in Palestine, Ahmed shared:`,
+        text: `For Ahmad, volunteerism is not charity. It is an expression of active citizenship. His work reflects a deep belief that people affected by crisis must be part of designing their own solutions. Reflecting on the realities facing many young people in Palestine, Ahmad shared:`,
       },
       {
         type: "pull-quote",
@@ -817,7 +817,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Despite living in conditions of ongoing insecurity, he has channeled his energy into meaningful work. With nearly 32 thousands Palestinians still displaced , including more than 12,000 children in the northern parts of the West Bank, Ahmed seeks to carve out paths for Palestinian youth to be recognised as capable agents of change.`,
+        text: `Despite living in conditions of ongoing insecurity, he has channeled his energy into meaningful work. With nearly 32 thousand Palestinians still displaced, including more than 12,000 children in the northern parts of the West Bank, Ahmad seeks to carve out paths for Palestinian youth to be recognised as capable agents of change.`,
       },
     ],
     vision: {
@@ -842,7 +842,7 @@ export const storiesData = {
     topic: `Youth Empowerment – Civic Education – Gender Equality – Women Leadership In Peacebuilding`,
     title: `Youth at the Helm: One Young Woman’s Journey to Pave the Way for Elections and a New Era of Stability in Libya.`,
     impact: {
-      intro: `In Libya’s conflict-scarred city of Al-Zawiyah, youth activist Nourshan Tijani Abdalla empowers young people to reclaim their voice, strengthen civic participation, and help shape a peaceful, inclusive future for their country.`,
+      intro: `In Libya’s conflict-scarred city of Al-Zawiya, youth activist Nourshan Tijani Abdalla empowers young people to reclaim their voice, strengthen civic participation, and help shape a peaceful, inclusive future for their country.`,
       stats: [
         {
           value: `4`,
@@ -852,7 +852,7 @@ export const storiesData = {
         {
           value: `90`,
           label: `Young Women`,
-          text: `In 2024/25, a young women leadership programme, named Raidat (“pioneers”), was launched by UNDP together with other UN entities. By the end of 2026, more than 90 young Libyan women will have graduated from a year-long training programme, equipping a new generation with skills required of future leaders.`,
+          text: `In 2024/2025, a young women's leadership programme, named Raidat (“pioneers”), was launched by UNDP together with other UN entities. By the end of 2026, more than 90 young Libyan women will have graduated from a year-long training programme, equipping a new generation with skills required of future leaders.`,
         },
         {
           value: `40+`,
@@ -862,7 +862,7 @@ export const storiesData = {
       ],
     },
     introParagraphs: [
-      `On the northwestern coast of Libya, some 45 kilometers from its capital, Tripoli, the municipality of Al-Zawiya is home to the country’s second-largest oil refinery and its Mediterranean gateway to the world. Yet beyond its economic significance, Al-Zawiya, has become a portrait of Libya’s prolonged uncertainty.`,
+      `On the northwestern coast of Libya, some 45 kilometers from its capital, Tripoli, the municipality of Al-Zawiya is home to the country’s second-largest oil refinery and its Mediterranean gateway to the world. Yet beyond its economic significance, Al-Zawiya has become a portrait of Libya’s prolonged uncertainty.`,
       `Since 2014, a power vacuum has continued to plague the city, and the scars of the country’s faltering transition and political rivalry are etched into the faces of school buildings, marketplaces, and the faces of families alike.`,
       `Every morning, a young woman steps out into streets still littered with the remnants of the latest clashes that have besieged her town. Her name is Nourshan Tijani Abdalla, and her voice has become a rallying call for Libya’s youth to recognise their power to shape the country’s future.`,
       `Nourshan was a child when the Libyan regime crumbled in 2011, ushering in an era of shifting powers, armed conflict, and failed attempts at democratic unity. More than a decade later, the transition persists, and her hometown remains caught in the crossfire of rival administrations and the militias that guard their interests.`,
@@ -907,7 +907,7 @@ export const storiesData = {
     topic: `Youth Empowerment – Civic Education – Social Cohesion – Peacebuilding`,
     title: `Beyond the Ballot: How Muad Al Ghandouri Is Rewriting What It Means to Participate in Libya`,
     impact: {
-      intro: `At 23, Muad Al Ghandouri is inspiring Libyan youth to move beyond violence, embrace civic rights, and become agents of change in their communities`,
+      intro: `At 23, Muad Al Ghandouri is inspiring Libyan youth to move beyond violence, embrace civic rights, and become agents of change in their communities.`,
       stats: [
         {
           value: `61`,
@@ -917,7 +917,7 @@ export const storiesData = {
         {
           value: `50`,
           label: `Youth`,
-          text: `In 2025, UNDP took advantage of the momentum of the municipal council elections to engage young voters and initiate a Youth Elections Forum in coordination with the Libyan High National Election Commission (HNEC). On 21 and 22 September 2025, 50 young women and men from across Libya came together in Tripoli, aimed at strengthening youth participation in the electoral process. The conference enhanced electoral awareness, developed leadership and advocacy skills, and empowers youth to lead awareness initiatives. Libyan youth participants were informed on electoral concepts, electoral awareness and advocacy.`,
+          text: `In 2025, UNDP took advantage of the momentum of the municipal council elections to engage young voters and initiate a Youth Elections Forum in coordination with the Libyan High National Election Commission (HNEC). On 21 and 22 September 2025, 50 young women and men from across Libya came together in Tripoli, aiming at strengthening youth participation in the electoral process. The conference enhanced electoral awareness, developed leadership and advocacy skills, and empowered youth to lead awareness initiatives. Libyan youth participants were informed on electoral concepts, electoral awareness and advocacy.`,
         },
       ],
     },
@@ -936,11 +936,11 @@ export const storiesData = {
       },
       {
         type: "pull-quote",
-        text: `“Armed groups are young people from our communities. Their violence is a symptom of their exclusion and misinformation.” He explains. “I don’t believe that we should try to go against our traditions to have our voices heard. We take time to explain, to build bridges of trust, to show goodwill and to work with and within our cultural norms to reach our goals”`,
+        text: `“Armed groups are young people from our communities. Their violence is a symptom of their exclusion and misinformation.” He explains. “I don’t believe that we should try to go against our traditions to have our voices heard. We take time to explain, to build bridges of trust, to show goodwill and to work with and within our cultural norms to reach our goals.”`,
       },
       {
         type: "paragraph",
-        text: `Muad founded Tawazon in 2025, a youth-led organisation committed to transforming perceptions from the ground up. Tawazon focuses on awareness raising, civic education, and capacity building, empowering young people with the knowledge to understand their rights and engage meaningfully in their communities.`,
+        text: `Muad founded Tawazon in 2025, a youth-led organisation committed to transforming perceptions from the ground up. Tawazon focuses on awareness-raising, civic education, and capacity building, empowering young people with the knowledge to understand their rights and engage meaningfully in their communities.`,
       },
       {
         type: "pull-quote",
@@ -948,7 +948,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `The organisation worked closely with local councils, elders, and even armed factions, mediating conflicts and fostering dialogue. Their high schools outreach initiative stands testament to their success.`,
+        text: `The organisation worked closely with local councils, elders, and even armed factions, mediating conflicts and fostering dialogue. Their high school outreach initiative stands testament to their success.`,
       },
       {
         type: "pull-quote",
@@ -964,7 +964,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Muad’s work is anchored in his belief that youth agency must be protected from political polarisation, instrumentalisation and external pressures. These grassroots campaigns, reaching thousands across Tripoli, embody his belief that sustainable peace begins with informed, empowered youth. His journey reflects a new model of leadership in Libya; one grounded in dialogue, respect for tradition.`,
+        text: `Muad’s work is anchored in his belief that youth agency must be protected from political polarisation, instrumentalisation and external pressures. These grassroots campaigns, reaching thousands across Tripoli, embody his belief that sustainable peace begins with informed, empowered youth. His journey reflects a new model of leadership in Libya; one grounded in dialogue and respect for tradition.`,
       },
     ],
     sectionThreeQuote: ``,
@@ -1005,7 +1005,7 @@ export const storiesData = {
       ],
     },
     introParagraphs: [
-      `Early morning, right before dawn on Monday 6, 2023, the residents of Aleppo, Syria’s renowned historic city in the north, were shaken out of their sleep by a 7.8 magnitude earthquake. Throughout the day, the shaking did not stop. A second major earthquake of similar strength followed, and tremors continued for weeks testing the resilience of an infrastructure that had barely survived decades of war. Homes were destroyed by the hundreds, and thousands of families were left stranded, watching in terror as a part of the once proud dome of the historic Ayyubid mosque lay in rubble and broken stone.`,
+      `Early morning, right before dawn on Monday February 6, 2023, the residents of Aleppo, Syria’s renowned historic city in the north, were shaken out of their sleep by a 7.8 magnitude earthquake. Throughout the day, the shaking did not stop. A second major earthquake of similar strength followed, and tremors continued for weeks testing the resilience of an infrastructure that had barely survived decades of war. Homes were destroyed by the hundreds, and thousands of families were left stranded, watching in terror as a part of the once proud dome of the historic Ayyubid mosque lay in rubble and broken stone.`,
       `A few weeks after the devastation, Khaireyya, a 22-year-old architecture student in Aleppo, could be spotted every day walking the narrow streets, assessing damage on shattered houses and taking stock of all the work needed to rebuild, restore and recover. Her team’s mission started with damage assessment and ended with homes restored and livelihoods regained.`,
     ],
     openingQuote: {
@@ -1023,7 +1023,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `In remote communities situated far from the halo of safety cast by big cities, navigating the world of volunteer and community work as a young girl poses many risks. Khaireyya took refuge in numbers and moved as a group for protection. Some areas they worked in were more traditional and conservative than others. However, the biggest challenge was dealing with the complicated reporting mechanisms and the often lack of clear guidance from the donor community.`,
+        text: `In remote communities situated far from the halo of safety cast by big cities, navigating the world of volunteer and community work as a young woman poses many risks. Khaireyya took refuge in numbers and moved as a group for protection. Some areas they worked in were more traditional and conservative than others. However, the biggest challenge was dealing with the complicated reporting mechanisms and the frequent lack of clear guidance from the donor community.`,
       },
       {
         type: "pull-quote",
@@ -1071,15 +1071,15 @@ export const storiesData = {
         {
           value: `30,000`,
           label: `Youth`,
-          text: `Since its launch in 2015, UNDP’s Youth Leadership Programme (YLP) has been implemented in 18 Arab countries, engaging more than 30,000 young women and men and creating a network of 80+ youth-serving organisations supporting youth-led change across the region — including Syria.`,
+          text: `Since its launch in 2015, UNDP’s Youth Leadership Programme (YLP) has been implemented in 18 Arab countries, engaging more than 30,000 young women and men and creating a network of 80+ youth-serving organisations supporting youth-led change across the region, including Syria.`,
         },
       ],
     },
     introParagraphs: [
       `“I was born in a country that wasn’t mine. My school was a melting pot of nationalities and different cultural backgrounds, sharing the same spectrum of challenges and opportunities that growing up as an expat offers. Home was a place I only visited during the holidays. A place I only saw through my sheltered prism. I loved it, but I didn’t speak its language, and I didn’t share its struggles.”`,
-      `Omar Bezo, was eighteen when he went back to Damascus, Syria to renew his national documents. It was meant to be a two-week stay, just like his holiday trips to his homeland. This was in 2014. Instability, which had started three years earlier, had escalated into a full-scale conflict. Omar found very little left of the country he knew only as a holiday destination before.`,
+      `Omar Bozou was eighteen when he went back to Damascus, Syria to renew his national documents. It was meant to be a two-week stay, just like his holiday trips to his homeland. This was in 2014. Instability, which had started three years earlier, had escalated into a full-scale conflict. Omar found very little left of the country he knew only as a holiday destination before.`,
       `By the end of 2014, over ten million people, more than half the population of Syria, were forced to leave their homes. About two thirds were internally displaced to safer grounds, further straining resources and disrupting services that were repeatedly damaged in the ongoing conflict.`,
-      `By 2014, the familiar heartbeat of Damascus had changed. Streets once crowded with leisurely shoppers were quieter; their conversations shorter, more cautious. Checkpoints became part of the city’s architecture, shaping both movement and mood. What Omar thought was a temporary visit, turned into a defining journey of self-discovery and survival. Alone in Damascus without official documents for over a year, he set off to reconnect with his roots, determined to find his place in a society now marked by uncertainty and hardship.`,
+      `By 2014, the familiar heartbeat of Damascus had changed. Streets once crowded with leisurely shoppers were quieter; their conversations shorter, more cautious. Checkpoints became part of the city’s architecture, shaping both movement and mood. What Omar thought was a temporary visit turned into a defining journey of self-discovery and survival. Alone in Damascus without official documents for over a year, he set off to reconnect with his roots, determined to find his place in a society now marked by uncertainty and hardship.`,
     ],
     openingQuote: {
       text: `“My family was far. I didn’t speak the local Arabic dialect I eventually registered for university, and this was a challenge. I changed my studies several times, in a quest to define my present self and reconcile it with my past. So, I volunteered during the university in 2015-2016 and I joined a Ramadan kitchen project. This project was the foundation of my civic engagement journey.”`,
@@ -1092,7 +1092,7 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Omar relied on live candid storytelling and reporting. Navigating the Syrian digital landscape, words had to be measured. In any given country during the early days of community mobilisation to respond to the pandemic, creating a community page would have been straightforward and safe. But in in Syria, insecurity, mistrust, censorships and shifting battle lines, shaped his journey more as an adventure, a dangerous one.`,
+        text: `Omar relied on live candid storytelling and reporting. Navigating the Syrian digital landscape, words had to be measured. In any given country during the early days of community mobilisation to respond to the pandemic, creating a community page would have been straightforward and safe. But in Syria, insecurity, mistrust, censorship and shifting battle lines shaped his journey more as an adventure, a dangerous one.`,
       },
       {
         type: "pull-quote",
@@ -1100,14 +1100,14 @@ export const storiesData = {
       },
       {
         type: "paragraph",
-        text: `Omar and his team of volunteers learned to navigate danger while staying impartial and community centered. His persistence led to the historic outcome of securing a special legal status for Akemha, allowing youth initiatives to operate safely and independently.`,
+        text: `Omar and his team of volunteers learned to navigate danger while staying impartial and community-centered. His persistence led to the historic outcome of securing a special legal status for Akemha, allowing youth initiatives to operate safely and independently.`,
       },
       {
         type: "paragraph",
         text: `As the initiative grew, so did attempts to usurp or annex it. In a peaceful setting, such a step might have seemed natural. But in a context where social gatherings were seen as security threats, aligning too closely with any political actor could put both the organisers and their beneficiaries at risk. Fortunately, a few trusted individuals acted as guiding figures, helping the young leader navigate this volatile landscape while continuing to mobilise large numbers safely.`,
       },
     ],
-    sectionThreeQuote: `“Throughout the process, the initiative maintained a clear moral stance: remain impartial, refuse favors, and stay vigilant [...]. My every move could affect many more than just me or my initiative. We all had to stay safe and stay efficient because one mistake from one initiative could also reflect negatively on other initiatives. This was my compass!”`,
+    sectionThreeQuote: `“Throughout the process, the initiative maintained a clear moral stance: remain impartial, refuse favours, and stay vigilant [...]. My every move could affect many more than just me or my initiative. We all had to stay safe and stay efficient because one mistake from one initiative could also reflect negatively on other initiatives. This was my compass!”`,
     sectionThreeDetailsBlocks: [
       {
         type: "paragraph",
@@ -1122,7 +1122,7 @@ export const storiesData = {
       },
     ],
     vision: {
-      text: `“We all feel the same pain, and face the same challenges [...], regardless of which side we resided on. Humanising the other side is key to building our future. Youth in Syria continue to build digital bridges and its time their voices were included and taken seriously.”`,
+      text: `“We all feel the same pain, and face the same challenges [...], regardless of which side we resided on. Humanising the other side is key to building our future. Youth in Syria continue to build digital bridges and it's time their voices were included and taken seriously.”`,
       highlightedPhrases: [
         `challenges`,
         `humanizing`,
